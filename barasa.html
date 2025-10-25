@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brian Barasa | Portfolio</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Brian Barasa – Computer Science student, web developer, and graphic designer. Explore my projects, skills, and contact details.">
+  <meta name="keywords" content="Brian Barasa, Portfolio, Web Developer, Graphic Designer, Computer Science, Kenya">
+  <meta name="author" content="Brian Barasa">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background-color: #f8f8f8;
+      color: #333;
+      transition: background-color 0.5s, color 0.5s;
+    }
+
+    /* Navigation */
+    nav {
+      background-color: #d32f2f;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ffccbc;
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: linear-gradient(to right, #d32f2f, #c2185b);
+      color: white;
+      animation: fadeIn 2s ease-in;
+    }
+    header img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      margin-bottom: 1rem;
+      animation: slideDown 1s ease-out;
+    }
+
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    section {
+      margin-bottom: 2.5rem;
+      animation: fadeInUp 1s ease-in-out;
+    }
+
+    h2 {
+      color: #d32f2f;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    a.btn {
+      display: inline-block;
+      background: #d32f2f;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 5px;
+      transition: background 0.3s;
+    }
+    a.btn:hover {
+      background: #b71c1c;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #ddd;
+      color: #333;
+      animation: fadeIn 2s ease-in;
+    }
+
+    /* Animations */
+    @keyframes fadeIn { from {opacity: 0;} to {opacity: 1;} }
+    @keyframes slideDown { from {transform: translateY(-20px); opacity: 0;} to {transform: translateY(0); opacity: 1;} }
+    @keyframes fadeInUp { from {transform: translateY(20px); opacity: 0;} to {transform: translateY(0); opacity: 1;} }
+  </style>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Header -->
+  <header>
+    <img src="profile.jpg" alt="Brian Barasa">
+    <h1>Brian Barasa</h1>
+    <p>Web Developer | Graphic Designer | Computer Science Student</p>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hello 👋, I'm <strong>Brian Barasa</strong> — a passionate computer science student and creative web developer 
+        who enjoys crafting visually appealing and efficient digital experiences. I combine my coding and design skills 
+        to bring modern web solutions to life. I’m currently improving my full-stack development skills and exploring UI/UX design.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>🌐 Frontend: HTML, CSS, JavaScript, React</li>
+        <li>⚙️ Backend: Node.js, MySQL</li>
+        <li>🎨 Design Tools: Photoshop, Figma, Canva</li>
+        <li>🧠 Other: Git, GitHub, Responsive Design, Problem-Solving</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div>
+        <p><strong>💻 Smart Library Management System</strong><br>
+        A web-based system for managing student registrations, book bookings, and returns.<br>
+        <em>Technologies used:</em> MySQL, VB.NET</p>
+
+        <p><strong>🎨 Personal Portfolio Website</strong><br>
+        A responsive and animated portfolio showcasing my web and design skills.<br>
+        <em>Technologies used:</em> HTML, CSS, JavaScript</p>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <p><strong>National Youth Service (NYS)</strong><br>
+      Diploma in Computer Science<br>
+      2024 – Present</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Let’s connect! Reach me through email or WhatsApp 👇</p>
+      <a href="mailto:brianbarasa868@gmail.com" class="btn">📧 Email Me</a>
+      <a href="https://wa.me/254701247845?text=Hi%20Brian%2C%20I%20saw%20your%20portfolio!" target="_blank" class="btn">💬 Chat on WhatsApp</a>
+    </section>
+
+    <section id="socials">
+      <h2>Find Me Online</h2>
+      <a href="https://github.com/brianbarasa" target="_blank">GitHub</a> |
+      <a href="https://www.linkedin.com/in/brianbarasa" target="_blank">LinkedIn</a>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Brian Barasa | All Rights Reserved
+  </footer>
+</body>
+</html>
